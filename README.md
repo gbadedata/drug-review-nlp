@@ -124,6 +124,8 @@ that is dropped rather than guessed: rating **>= 7 positive**, **<= 4 negative**
 excluded. After cleaning, the training set is **145,337 reviews across 798 conditions**,
 with a **72.4% positive base rate**, which is the accuracy any classifier must beat.
 
+![Drug reviews are polarised: most ratings sit at 1 or 10](assets/dr_ratings.png)
+
 The full data is not redistributed here (see `data/README.md`); it is licensed CC BY 4.0
 and available from the UCI repository.
 
@@ -161,6 +163,8 @@ than simply frequent.
 | **Text (TF-IDF 1-2 grams)** | **0.904** | **0.876** | **0.954** |
 | Text + structured | 0.906 | 0.877 | 0.957 |
 
+![Sentiment: the text carries it, structured metadata barely helps](assets/dr_sentiment.png)
+
 **Interpretation.** The text model lifts accuracy 18 points over the baseline and macro-F1
 from 0.42 to 0.88, with an ROC-AUC of 0.954. Structured metadata alone carries only weak
 signal (AUC 0.71, accuracy at the baseline), and adds essentially nothing once the text is
@@ -187,9 +191,13 @@ merely frequent:
 | Acne | cystic acne, pimples, dermatologist, chin |
 | Pain | tramadol, oxycodone, norco, percocet, ER |
 
+![What patients complain about, per condition: distinctive terms in negative reviews](assets/dr_themes.png)
+
 Lowest-satisfaction conditions with at least 300 reviews include **Vaginal Yeast
 Infection** (mean rating 3.95, 66% negative), **Abnormal Uterine Bleeding** (4.24) and
 **Osteoporosis** (4.78).
+
+![Where patients are least satisfied, conditions with 300 or more reviews](assets/dr_satisfaction.png)
 
 **Interpretation.** The method separates the expected (a condition's own name) from the
 specific and actionable: mood-related discontinuation for birth control, injection and
