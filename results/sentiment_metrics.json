@@ -1,0 +1,26 @@
+{
+  "n_train": 145337,
+  "n_test": 48438,
+  "positive_base_rate_test": 0.7243,
+  "majority_baseline": {
+    "accuracy": 0.7243,
+    "macro_f1": 0.4201,
+    "roc_auc": 0.5,
+    "predicts": "positive"
+  },
+  "text_only": {
+    "accuracy": 0.9039,
+    "macro_f1": 0.8758,
+    "roc_auc": 0.9538
+  },
+  "structured_only": {
+    "accuracy": 0.725,
+    "macro_f1": 0.4529,
+    "roc_auc": 0.7067
+  },
+  "text_plus_structured": {
+    "accuracy": 0.9056,
+    "macro_f1": 0.8771,
+    "roc_auc": 0.9571
+  }
+}

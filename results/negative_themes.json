@@ -1,0 +1,74 @@
+{
+ "Birth Control": [
+  "period",
+  "birth",
+  "control",
+  "birth control",
+  "pill",
+  "periods",
+  "months",
+  "sex",
+  "mood",
+  "swings"
+ ],
+ "Depression": [
+  "depression",
+  "wellbutrin",
+  "effexor",
+  "prozac",
+  "pristiq",
+  "lexapro",
+  "zoloft",
+  "celexa",
+  "suicidal",
+  "cymbalta"
+ ],
+ "Vaginal Yeast Infection": [
+  "burning",
+  "itching",
+  "yeast",
+  "cream",
+  "product",
+  "yeast infection",
+  "infection",
+  "vagina",
+  "itch",
+  "used"
+ ],
+ "Abnormal Uterine Bleeding": [
+  "bleeding",
+  "shot",
+  "depo",
+  "heavy",
+  "period",
+  "mirena",
+  "spotting",
+  "depo shot",
+  "heavy bleeding",
+  "clots"
+ ],
+ "Acne": [
+  "acne",
+  "skin",
+  "face",
+  "cystic",
+  "pimples",
+  "dermatologist",
+  "using",
+  "cystic acne",
+  "clear",
+  "chin"
+ ],
+ "Pain": [
+  "pain",
+  "relief",
+  "pain relief",
+  "tylenol",
+  "tramadol",
+  "oxycodone",
+  "norco",
+  "surgery",
+  "percocet",
+  "er"
+ ]
+}
